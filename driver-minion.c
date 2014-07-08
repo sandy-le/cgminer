@@ -73,7 +73,7 @@ static int minion_memory_addr = BCM2835_GPIO_BASE;
 #define MINION_SPI_SPEED 500000
 #endif
 
-// modify by sandy, make spi speed be 500KHz
+// modify by sandy, 2014-07-08, make spi speed be 500KHz
 #define MINION_SPI_SPEED 500000
 
 
@@ -178,7 +178,7 @@ static struct minion_select_pins {
 
 // Header Pin 18 = GPIO5 = BCM 24
 // #define MINION_GPIO_RESULT_INT_PIN 24
-// RockChip is pin 172 ...
+// modify by sandy, 2014-07-08, RockChip is pin 172 ...
 #define MINION_GPIO_RESULT_INT_PIN 172
 
 #define MINION_GPIO_SYS "/sys/class/gpio"
